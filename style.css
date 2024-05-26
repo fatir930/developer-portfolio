@@ -2,6 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   background-image: linear-gradient(rgb(255, 255, 240), rgb(255, 255, 255));
+  scrollbar-width: none;
 }
 
 h1 {
@@ -28,6 +29,7 @@ section {
   width: 90%;
 }
 
+/* styling button */
 .hire-me-button {
   text-decoration: none;
   color: white;
@@ -38,22 +40,31 @@ section {
   border-radius: 10px;
 }
 
+/* styling top banner background */
 .top-banner {
   background-image: url(images/top-banner-removebg-preview.png);
   background-repeat: no-repeat;
 }
 
+/* styling second sections background */
 .second-section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 
+/* changing random word color */
 .big {
   color: crimson;
 }
 
+/* Fixes alignment for all paragraphs */
 p {
   text-align: justify;
   font-weight: 550;
+}
+
+/* Hides the scrollbar */
+::-webkit-scrollbar {
+  display: none;
 }
